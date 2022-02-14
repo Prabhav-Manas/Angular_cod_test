@@ -1,0 +1,148 @@
+.offerC{
+    height: 60px;
+    width: 1120px;
+    margin-left: 120px;
+    background-color: #000000;
+}
+
+.icon-arrow-leftC{
+    width: 20px;
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    margin-left: 30px;
+}
+
+.icon-arrow-leftC:after{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4.4px;
+    left: -1px;
+}
+
+.icon-arrow-leftC:before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 4.5px;
+    left: -1.5px;
+}
+
+
+.p2{
+    position: absolute;
+    top: 15px;
+    left: 48%;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.leftimgC{
+    margin-left: 120px;
+}
+
+.ixiimg2{
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+    border-radius: 75px;
+}
+
+.copn2{
+    position: relative;
+    left: 75.2%;
+    bottom: 76px;
+}
+
+h4{
+    margin-left: 180px;
+}
+
+.imgcontainer p{
+    margin: 0 180px;
+}
+
+.tcimg{
+    position: relative;
+    left: 170px;
+    background-color: #E87814;
+}
+
+h5{
+    position: relative;
+    left: 195px;
+    bottom: 23px;
+    color: #575757;
+}
+
+.TC p{
+    margin: 0 180px;
+}
+
+.btn{
+    position: relative;
+    left: 47%;
+    border-radius: 0px;
+    background-color: #6196F6;
+    font-weight: bold;
+}
+
+.ftr2{
+    height: 60px;
+    width: 1120px;
+    margin-left: 120px;
+    background-color: #000000;
+}
+
+.container2#blur.active{
+    filter: blur(3px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px grey;
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+.tickimg{
+    position: relative;
+    top: 50px;
+}
+
+.txttick{
+    position: relative;
+    left: 115px;
+    bottom: 50px;
+    font-size: 45px;
+}
